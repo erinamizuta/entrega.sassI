@@ -1,0 +1,42 @@
+@import "utilities/variables";
+
+.contenidoAlbum{
+    h1{
+       font-family: 'IM Fell DW Pica', serif;
+       color: $color-principal;
+       font-size: 50px;
+       text-align: center;
+       margin-top: 3rem;
+    }
+    .contenidoMain{
+        p{
+            font-family: 'Open Sans', sans-serif;
+            color: $color-secundario;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    }
+    .portada{
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0rem 2rem 0rem;
+        .imgPortada{
+            width: 20%;
+        }
+    }
+    h2{
+        text-align: center;
+        font-family: 'IM Fell DW Pica', serif;
+        font-size: 2.7rem;
+        color: $color-principal;
+        margin: 2rem 0rem;
+    }
+    h3{
+        text-align: center;
+        font-family: 'IM Fell DW Pica', serif;
+        font-size: 2.3rem;
+        color: $color-secundario;
+        margin: 2rem 0rem;
+    }
+
+}
